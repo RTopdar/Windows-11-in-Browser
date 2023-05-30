@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('bg.jpeg'); */
+    /* background-size: cover; */
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F3F3F3;
+    z-index: 110;
+    
+}
+#taskbarright{
+    position: absolute;
+    right: 0;
+    margin: 1px 0;
+    height: 95%;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 55px; */
+    bottom: -655px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transition: all 0.4s ease-in;
+    
+}
+.startmenu img{
+    border-radius: 8px;
+}
+.giticon{
+    z-index: 1200;
+}
+.giticon img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    /* left: 20px; */
+    /* top: 60px; */
+    background-size: contain;
+    background-position: center;
+    /* background-color: white; */
+
+    
+}
+.giticon div{
+    position: relative;
+    color: white;
+    bottom: -70px;
+    left: 15px;
+}
